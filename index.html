@@ -1,0 +1,328 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+    <link rel="stylesheet" href="css/ziji.css"/>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/iconfont.css">
+  </head>
+  <body>
+    <!-- 主界面菜单同时移动 -->
+    <!-- 侧滑导航根容器 -->
+    <div class="mui-off-canvas-wrap mui-draggable">
+      <!-- 主页面容器 -->
+      <div class="mui-inner-wrap">
+        <!-- 菜单容器 -->
+        <aside class="mui-off-canvas-left" id="offCanvasSide">
+          <div class="mui-scroll-wrapper">
+            <div class="mui-scroll">
+            <!-- 菜单具体展示内容 -->
+            
+            <!--*********侧边导航的内容************-->
+            <ul class="mui-table-view yse">
+    <li class="mui-table-view-cell">
+        <a class="mui-navigate-right">侧边栏1</a>
+    </li>
+    <li class="mui-table-view-cell">
+        <a class="mui-navigate-right">侧边栏2</a>
+    </li>
+    <li class="mui-table-view-cell">
+        <a class="mui-navigate-right">侧边栏3</a>
+    </li>
+     <li class="mui-table-view-cell">
+        <a class="mui-navigate-right">侧边栏4</a>
+    </li>
+     <li class="mui-table-view-cell">
+        <a class="mui-navigate-right">侧边栏5</a>
+    </li>
+    <li class="mui-table-view-cell">
+        <a class="mui-navigate-right">侧边栏6</a>
+    </li>
+    <li class="mui-table-view-cell">
+        <a class="mui-navigate-right">侧边栏7</a>
+    </li>
+     <li class="mui-table-view-cell">
+        <a class="mui-navigate-right">侧边栏8</a>
+    </li>
+     <li class="mui-table-view-cell">
+        <a class="mui-navigate-right">侧边栏9</a>
+    </li>
+</ul>
+<!--*********侧边导航的内容    end  ************-->
+ 
+            </div>
+          </div>
+        </aside>
+        <!-- 主页面标题 -->
+        <header class="mui-bar mui-bar-nav">
+          <a class="mui-icon mui-action-menu mui-icon-bars mui-pull-left" href="#offCanvasSide" style='color: #fff;'></a>
+          <h1 class="mui-title woziji">
+            <input type="text" / value="标题">
+          </h1>
+        <!-- ******* 放大镜********-->
+          <a class="mui-tab-item">
+            <span class="mui-icon iconfont icon-search" style='color: #fff;font-size: 18px;float: right;'></span>
+           
+          </a>
+        </header>
+        <nav class="mui-bar mui-bar-tab">
+          <a class="mui-tab-item mui-active">
+            <span class="mui-icon iconfont icon-home" style='font-size: 18px;'></span>
+            <span class="mui-tab-label" style=''>首页</span>
+          </a>
+          <a class="mui-tab-item">
+            <span class="mui-icon iconfont icon-app" style='font-size: 18px;'></span>
+            <span class="mui-tab-label">分类</span>
+          </a>
+          <a class="mui-tab-item">
+            <span class="mui-icon iconfont icon-cart" style='font-size: 18px;'></span>
+            <span class="mui-tab-label">购物车</span>
+          </a>
+          <a class="mui-tab-item">
+            <span class="mui-icon mui-icon-contact"></span>
+            <span class="mui-tab-label">个人中心</span>
+          </a>
+        </nav>
+        <!-- 主页面内容容器 -->
+        <div class="mui-content mui-scroll-wrapper">
+          <div class="mui-scroll">
+            <!-- 主界面具体展示内容 -->
+            <div id="slider" class="mui-slider">
+              <div class="mui-slider-group mui-slider-loop">
+                <!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+                <div class="mui-slider-item mui-slider-item-duplicate">
+                  <a href="#">
+                    <img src="images/banner3.png">
+                  </a>
+                </div>
+                <!-- 第一张 -->
+                <div class="mui-slider-item">
+                  <a href="#">
+                    <img src="images/banner4.png">
+                  </a>
+                </div>
+                <!-- 第二张 -->
+                <div class="mui-slider-item">
+                  <a href="#">
+                    <img src='images/banner5.png'>
+                  </a>
+                </div>
+                <!-- 第三张 -->
+                <div class="mui-slider-item">
+                  <a href="#">
+                    <img src='images/banner8.png'>
+                  </a>
+                </div>
+                <!-- 第四张 -->
+                <div class="mui-slider-item">
+                  <a href="#">
+                    <img src="images/banner3.png">
+                  </a>
+                </div>
+                <!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+                <div class="mui-slider-item mui-slider-item-duplicate">
+                  <a href="#">
+                    <img src="images/banner3.png">
+                  </a>
+                </div>
+              </div>
+              <div class="mui-slider-indicator">
+                <div class="mui-indicator mui-active"></div>
+                <div class="mui-indicator"></div>
+                <div class="mui-indicator"></div>
+                <div class="mui-indicator"></div>
+              </div>
+            </div>
+              <!--  ************* 第一组图***********************-->
+            <ul class="mui-table-view mui-grid-view">
+              <li class="mui-table-view-cell mui-media mui-col-xs-6">
+                <a href="#">
+                  <img class="mui-media-object" src="http://placehold.it/400x300">
+                  <div class="mui-media-body">
+                  	<b style='color:red'>￥28.8元</b>
+                  	<b style='color:red'>可用积分</b>
+                  	<br>
+                  	<span>官方正品今年的新品欢迎选购</span>
+                  </div>
+                </a>
+              </li>
+              
+              <li class="mui-table-view-cell mui-media mui-col-xs-6">
+                <a href="#">
+                  <img class="mui-media-object" src="http://placehold.it/400x300">
+                  <div class="mui-media-body">
+                  	<b style='color:red'>￥28.8元</b>
+                  	<b style='color:red'>可用积分</b>
+                  	<br>
+                  	<span>官方正品今年的新品欢迎选购</span>
+                  </div>
+                </a>
+              </li>
+            </ul>
+            <!--  ************* 第二组图***********************-->
+            <ul class="mui-table-view mui-grid-view">
+              <li class="mui-table-view-cell mui-media mui-col-xs-6">
+                <a href="#">
+                  <img class="mui-media-object" src="http://placehold.it/400x300">
+                  <div class="mui-media-body">
+                  	<b style='color:red'>￥28.8元</b>
+                  	<b style='color:red'>可用积分</b>
+                  	<br>
+                  	<span>官方正品今年的新品欢迎选购</span>
+                  </div>
+                </a>
+              </li>
+              <li class="mui-table-view-cell mui-media mui-col-xs-6">
+                <a href="#">
+                  <img class="mui-media-object" src="http://placehold.it/400x300">
+                  <div class="mui-media-body">
+                  	<b style='color:red'>￥28.8元</b>
+                  	<b style='color:red'>可用积分</b>
+                  	<br>
+                  	<span>官方正品今年的新品欢迎选购</span>
+                  </div>
+                </a>
+              </li>
+            </ul>
+            <!--************第三组图**********************-->
+            <ul class="mui-table-view mui-grid-view">
+              <li class="mui-table-view-cell mui-media mui-col-xs-6">
+                <a href="#">
+                  <img class="mui-media-object" src="http://placehold.it/400x300">
+                  <div class="mui-media-body">
+                  	<b style='color:red'>￥28.8元</b>
+                  	<b style='color:red'>可用积分</b>
+                  	<br>
+                  	<span>官方正品今年的新品欢迎选购</span>
+                  </div>
+                </a>
+              </li>
+              <li class="mui-table-view-cell mui-media mui-col-xs-6">
+                <a href="#">
+                  <img class="mui-media-object" src="http://placehold.it/400x300">
+                  <div class="mui-media-body">
+                  	<b style='color:red'>￥28.8元</b>
+                  	<b style='color:red'>可用积分</b>
+                  	<br>
+                  	<span>官方正品今年的新品欢迎选购</span>
+                  </div>
+                </a>
+              </li>
+            </ul>
+            <!--   ***********第四组图***************-->
+            <ul class="mui-table-view mui-grid-view">
+              <li class="mui-table-view-cell mui-media mui-col-xs-6">
+                <a href="#">
+                  <img class="mui-media-object" src="http://placehold.it/400x300">
+                  <div class="mui-media-body">
+                  	<b style='color:red'>￥28.8元</b>
+                  	<b style='color:red'>可用积分</b>
+                  	<br>
+                  	<span>官方正品今年的新品欢迎选购</span>
+                  </div>
+                </a>
+              </li>
+              <li class="mui-table-view-cell mui-media mui-col-xs-6">
+                <a href="#">
+                  <img class="mui-media-object" src="http://placehold.it/400x300">
+                  <div class="mui-media-body">
+                  	<b style='color:red'>￥28.8元</b>
+                  	<b style='color:red'>可用积分</b>
+                  	<br>
+                  	<span>官方正品今年的新品欢迎选购</span>
+                  </div>
+                </a>
+              </li>
+            </ul>
+            <!--   ***********第五组图***************-->
+            <ul class="mui-table-view mui-grid-view">
+              <li class="mui-table-view-cell mui-media mui-col-xs-6">
+                <a href="#">
+                  <img class="mui-media-object" src="http://placehold.it/400x300">
+                  <div class="mui-media-body">
+                  	<b style='color:red'>￥28.8元</b>
+                  	<b style='color:red'>可用积分</b>
+                  	<br>
+                  	<span>官方正品今年的新品欢迎选购</span>
+                  </div>
+                </a>
+              </li>
+              <li class="mui-table-view-cell mui-media mui-col-xs-6">
+                <a href="#">
+                  <img class="mui-media-object" src="http://placehold.it/400x300">
+                  <div class="mui-media-body">
+                  	<b style='color:red'>￥28.8元</b>
+                  	<b style='color:red'>可用积分</b>
+                  	<br>
+                  	<span>官方正品今年的新品欢迎选购</span>
+                  </div>
+                </a>
+              </li>
+            </ul>
+            <!--   ***********第六组图***************-->
+            <ul class="mui-table-view mui-grid-view">
+              <li class="mui-table-view-cell mui-media mui-col-xs-6">
+                <a href="#">
+                  <img class="mui-media-object" src="http://placehold.it/400x300">
+                  <div class="mui-media-body">
+                  	<b style='color:red'>￥28.8元</b>
+                  	<b style='color:red'>可用积分</b>
+                  	<br>
+                  	<span>官方正品今年的新品欢迎选购</span>
+                  </div>
+                </a>
+              </li>
+              <li class="mui-table-view-cell mui-media mui-col-xs-6">
+                <a href="#">
+                  <img class="mui-media-object" src="http://placehold.it/400x300">
+                  <div class="mui-media-body">
+                  	<b style='color:red'>￥28.8元</b>
+                  	<b style='color:red'>可用积分</b>
+                  	<br>
+                  	<span>官方正品今年的新品欢迎选购</span>
+                  </div>
+                </a>
+              </li>
+            </ul>
+             <!--   ***********第七组图***************-->
+             <ul class="mui-table-view mui-grid-view">
+              <li class="mui-table-view-cell mui-media mui-col-xs-6">
+                <a href="#">
+                  <img class="mui-media-object" src="http://placehold.it/400x300">
+                  <div class="mui-media-body">
+                  	<b style='color:red'>￥28.8元</b>
+                  	<b style='color:red'>可用积分</b>
+                  	<br>
+                  	<span>官方正品今年的新品欢迎选购</span>
+                  </div>
+                </a>
+              </li>
+              <li class="mui-table-view-cell mui-media mui-col-xs-6">
+                <a href="#">
+                  <img class="mui-media-object" src="http://placehold.it/400x300">
+                  <div class="mui-media-body">
+                  	<b style='color:red'>￥28.8元</b>
+                  	<b style='color:red'>可用积分</b>
+                  	<br>
+                  	<span>官方正品今年的新品欢迎选购</span>
+                  </div>
+                </a>
+              </li>
+            </ul>
+            
+            <div style="width:100%;height:50px"></div>
+          </div>
+        </div>
+        <div class="mui-off-canvas-backdrop"></div>
+      </div>
+    </div>
+    <script src="js/mui.min.js"></script>
+    <script type="text/javascript">
+      
+			mui.init()
+		
+    </script>
+  </body>
+</html>

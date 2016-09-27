@@ -4395,3 +4395,16 @@ body>.mui-progressbar {
   height: 100%;
   border: 0
 }
+
+.luo{
+	width: 100%;
+	height:auto;
+	position: fixed;
+	top:0;
+	bottom:0;
+	overflow-y: auto;
+	
+}
+
+
+
